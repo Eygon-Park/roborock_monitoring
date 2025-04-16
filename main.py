@@ -26,8 +26,8 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 # 로봇 청소기의 IP 주소와 토큰을 입력하세요.
-VACUUM_IP = "192.168.79.24"
-VACUUM_TOKEN = "43494b59784f4855597a796762506144"
+VACUUM_IP = "<device ip>"
+VACUUM_TOKEN = "<your token>"
 
 # 상태 확인 주기 (초 단위)
 CHECK_INTERVAL = 60  # 1분
